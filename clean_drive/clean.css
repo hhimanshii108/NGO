@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-background {
+    background-size: cover;
+    height: 100vh;
+    background-image: url('photos/tree.jpeg');
+    background-repeat: no-repeat;
+    filter: blur(px);
+    -webkit-filter: blur(px);
+
+}
+
+.home-button {
+    padding-top: 5%;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.home-button a {
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    font-size: 15;
+    padding: 20px;
+    text-align: center;
+}
+
+.p-text {
+
+    color: white;
+    font-size: bold;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-30%, 0%);
+    z-index: 2;
+    width: 50%;
+    font-size: 20;
+    padding: 20px;
+
+}
+
+.selaqui {
+    clear: both;
+    /* clear the float from the slider */
+    margin-top: 20px;
+    font-size: bold;
+    font-size: 20;
+    transform: translate(2%, 0%);
+    text-align: left;
+    width: 47%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-left: 5%;
+}
+
+#slider1 img {
+    margin-top: 20px;
+    width: 50%;
+    height: auto;
+    max-width: 500px;
+    float: right;
+    margin-bottom: 20px;
+    padding-right: 5%;
+}
+
+.tapkeshwar {
+    clear: both;
+    /* clear the float from the slider */
+    margin-top: 20px;
+    font-size: bold;
+    font-size: 20;
+    transform: translate(2%, 0%);
+    text-align: left;
+    width: 47%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-left: 5%;
+}
+
+#slider2 img {
+    margin-top: 100px;
+    width: 50%;
+    height: auto;
+    max-width: 500px;
+    float: right;
+    margin-bottom: 20px;
+    padding-right: 5%;
+}
+
+.george {
+    clear: both;
+    /* clear the float from the slider */
+    margin-top: 20px;
+    font-size: bold;
+    font-size: 20;
+    transform: translate(2%, 0%);
+    text-align: left;
+    width: 47%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-left: 5%;
+}
+
+#slider3 img {
+    margin-top: 40px;
+    width: 50%;
+    height: auto;
+    max-width: 500px;
+    float: right;
+    margin-bottom: 20px;
+    padding-right: 5%;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 2em 0;
+    text-align: center;
+}
+
+footer h5 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+footer p,
+footer li {
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    /* styling for the footer */
+    clear: both;
+    /* clear the floating property of the image slider */
+}
