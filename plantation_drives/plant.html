@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Vibes Only</title>
+    <link rel="stylesheet" type="text/css" href="plant.css">
+</head>
+
+<body>
+    <div class="image-background">
+    </div>
+    <div class="bg-text">
+        <h1>Green Vibes Only</h1>
+        <div class="home-button">
+            <a href="https://www.pexels.com/search/home/">Home</a>
+        </div>
+    </div>
+    <div class="p-text">
+        <p>
+            The Green Vibes Only campaign is a movement that promotes environmentally-friendly and sustainable living.
+            It encourages individuals to make small changes in their daily lives to reduce their impact on the
+            environment. These changes can include using reusable bags and water bottles, reducing meat consumption, and
+            conserving energy. The campaign also raises awareness about the importance of protecting the planet and the
+            need for collective action to address climate change. Overall, the goal of the Green Vibes Only campaign is
+            to create a more sustainable future for all.
+            The Green Vibes Only campaign also often organizes plantation drives, as planting trees is an important step
+            in promoting sustainable living and combating climate change.
+        </p>
+    </div>
+    <br>
+    <br>
+    <div class="pdrive">
+        <p>
+        <h3>Annual Plantation Drive</h3>
+        <h3>14/07/22</h3>
+        <br>
+        Team Sambhav came forward to plants trees as a part of their social duty towards environment 🍀.
+
+        It's a pleasure to be a part of such a great initiative by BDF ngo.<br>
+        Annual plantation Drive!🍀<br>
+        950+ Trees planted in past 30 days.<br>
+        Through plantation drives, the Green Vibes Only campaign aims to not only raise awareness about the importance
+        of trees but also to actively contribute to their preservation and growth. These drives are typically held in
+        public parks or other community spaces and are open to volunteers of all ages. They also educate people about
+        the importance of maintaining the plantation and how to care for the plants.
+        </p>
+    </div>
+    <div id="slider1">
+        <img src="photos/p1.png" alt="Image 1">
+        <img src="photos/p2.png" alt="Image 2">
+        <img src="photos/p3.png" alt="Image 3">
+        <img src="photos/p4.png" alt="Image 3">
+        <img src="photos/p5.png" alt="Image 3">
+
+    </div>
+    <script>
+        var slideIndex1 = 0;
+        var slides1 = document.getElementById("slider1").getElementsByTagName("img");
+
+        function showSlides1() {
+            for (var i = 0; i < slides1.length; i++) {
+                slides1[i].style.display = "none";
+            }
+            slideIndex1++;
+            if (slideIndex1 > slides1.length) {
+                slideIndex1 = 1;
+            }
+            slides1[slideIndex1 - 1].style.display = "block";
+            setTimeout(showSlides1, 3000); // change image every 3 seconds
+        }
+        showSlides1();
+    </script>
+    <div class="pd2">
+        <p>
+        <h3>Asharodi Protest </h3>
+        <h3>11/04/22</h3>
+        <br>
+        Asharodi Protest- A large number of trees were chopped off because of Delhi-Dehradun expressway!
+        The trees of Asharodi forest have rich history since British era and serve as home for various small and large
+        animals and birds. Thus, keeping the call of an hour in mind our team stood up actively with
+        some local organisations working on eco-preservation. They also provides biodiversity to a lot of native floral
+        species. They are the pioneer of Doon Valley and are the reason for the pleasant weather enjoyed by local and
+        tourists collectively.<br>
+        We should come together to save our forests and protect our Valley from being another Delhi!<br>
+
+        Green Doon or Concrete Doon?!<br>
+        Choice is ours!!!<br>
+        Please come forward to stop this menace.
+        </p>
+    </div>
+    <div id="slider2">
+        <img src="photos/p6.png" alt="Image 3">
+        <img src="photos/p7.png" alt="Image 3">
+        <img src="photos/p8.png" alt="Image 3">
+        <img src="photos/p9.png" alt="Image 3">
+
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        var slides = document.getElementById("slider2").getElementsByTagName("img");
+
+        function showSlides() {
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // change image every 3 seconds
+        }
+        showSlides();
+    </script>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h5>About Us</h5>
+                    <p>Learn more about our organization and our mission to keep our community clean.</p>
+                </div>
+                <div class="col-sm">
+                    <h5>Upcoming Events</h5>
+                    <ul>
+                        <li>Beach Cleanup - January 20th</li>
+                        <li>Park Cleanup - February 10th</li>
+                        <li>River Cleanup - March 15th</li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@cleanupdrive.com</p>
+                    <p>Phone: 555-555-5555</p>
+                    <p>Address: 123 Main St, Anytown USA</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <p>Copyright © Cleanup Drive</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
